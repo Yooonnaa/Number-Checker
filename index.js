@@ -1,25 +1,13 @@
 function isPositive(number) {
-    if (number > 0) {
-        return true
-    } else {
-        return false
-    }
+    return number > 0;
 }
 
 function isNegative(number) {
-    if (number < 0) {
-        return true
-    } else {
-        return false
-    }
+    return number < 0;
 }
 
 function isZero(number) {
-    if (number === 0) {
-        return true
-    } else {
-        return false
-    }
+    return number === 0;
 }
 
 function isEven(number) {
